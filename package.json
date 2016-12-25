@@ -1,0 +1,30 @@
+{
+  "name": "alerts-factory",
+  "version": "1.0.0",
+  "description": "Factory invokes alerts directive",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalaioGG/alerts-factory.git"
+  },
+  "keywords": [
+    "angular",
+    "html",
+    "jade"
+  ],
+  "author": "Giorgos Palaiologos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalaioGG/alerts-factory/issues"
+  },
+  "homepage": "https://github.com/PalaioGG/alerts-factory#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "jade": "^1.11.0",
+    "jquery": "^3.1.1"
+  }
+}
