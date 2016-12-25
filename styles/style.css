@@ -1,0 +1,61 @@
+/* STYLE.CSS */
+
+.notification-holder {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+.my-alert {
+  z-index: 999;
+  position: relative;
+  width: 30%;
+  /*padding: 5px 0;*/
+  border-radius: 4px;
+  margin: 20px auto;
+  font-size: 14px;
+  text-align: left;
+  box-shadow: 1px 1px 10px #888;
+  opacity: 1;
+  animation: fade .5s linear;
+}
+
+@keyframes fade {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.alert-icon {
+  height: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.alert-message {
+  line-height: 3;
+}
+
+.fa {
+  color: #fff;
+  /*line-height: 0.35;*/
+}
+
+.my-alert-success {
+  background-color: #96DF73;
+  color: #316814;
+}
+
+.my-alert-error {
+  background-color: #EF403D;
+  color: #443635;
+}
+
+.my-alert-warning {
+  background-color: #FED557;
+  color: #594719;
+}
+
+.my-alert-general {
+  background-color: #ABDAE2;
+  color: #37545A;
+}

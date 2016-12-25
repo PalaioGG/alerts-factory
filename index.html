@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html ng-app='myApp'>
+  <head>
+    <title>Alerts Factory</title>
+
+    <script src='/node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src='/node_modules/angular/angular.js'></script>
+
+    <link href='/node_modules/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' media='screen'></link>
+    <link href='/styles/style.css' rel='stylesheet' media='screen'></link>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'></link>
+
+  </head>
+
+  <body ng-controller="mainCtrl">
+
+    <div class="container-fluid">
+      <div class="row">
+        <h1>{{message}}</h1>
+        <button class="btn btn-success" ng-click='makeSomethingHappen("success")'>Generate Alert</button>
+        <button class="btn btn-danger" ng-click='makeSomethingHappen("error")'>Generate Alert</button>
+        <button class="btn btn-warning" ng-click='makeSomethingHappen("warning")'>Generate Alert</button>
+        <button class="btn btn-primary" ng-click='makeSomethingHappen("general")'>Generate Alert</button>
+      </div>
+      <div class="row">
+        <div class="alert-holder">
+          <alert-directive></alert-directive>
+        </div>
+      </div>
+    </div>
+
+    <script src='./javascript/main.controller.js'></script>
+    <script src='./javascript/alert.directive.js'></script>
+    <script src='./javascript/alert.factory.js'></script>
+
+  </body>
+</html>

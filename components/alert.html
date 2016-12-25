@@ -1,0 +1,13 @@
+<!-- ALERT.HTML -->
+
+<div class="my-alert my-alert-{{alert.type}}" ng-repeat="alert in alerts" ng-show="alert.message">
+  <span class="alert-icon">
+    <i class="fa fa-check fa-2x" ng-if="alert.type === 'success'"></i>
+    <i class="fa fa-times fa-2x" ng-if="alert.type === 'error'"></i>
+    <i class="fa fa-exclamation fa-2x" ng-if="alert.type === 'warning'"></i>
+    <i class="fa fa-info fa-2x" ng-if="alert.type === 'general'"></i>
+  </span>
+  <span class="alert-message">
+    {{alert.message}}
+  </span>
+</div>
