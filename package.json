@@ -13,7 +13,8 @@
   "keywords": [
     "angular",
     "html",
-    "jade"
+    "alerts",
+    "notifications"
   ],
   "author": "Giorgos Palaiologos",
   "license": "ISC",
@@ -25,7 +26,6 @@
     "angular": "^1.6.1",
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
-    "jade": "^1.11.0",
     "jquery": "^3.1.1"
   }
 }
